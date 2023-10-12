@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*? Paralax efekt için height 100% verilir */
+  height: 100%;
+
+  /*? tüm sayfa için kullanılacak ayarlar */
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  color: #666666;
+}
