@@ -3,10 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*? Paralax efekt için height 100% verilir */
   height: 100%;
-
-  /*? tüm sayfa için kullanılacak ayarlar */
   font-size: 1rem;
   font-family: "Lato", sans-serif;
   color: #666666;
@@ -33,14 +30,10 @@ body {
 .background--image2,
 .background--image3,
 .background--image4 {
-  /*? Arkaplan resimlerini boyutlandırdık */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
   background-attachment: fixed;
-
-  /*? içindeki bütün elemanları ortaladık */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,7 +116,6 @@ body {
     background-attachment: scroll;
   }
 
-
   .heading-container {
     font-size: 1.5rem;
     letter-spacing: 0.5rem;
@@ -135,7 +127,6 @@ body {
     outline: 0.2rem inset purple;
     outline-offset: 0.5rem;
        line-height: 2.3rem;
- 
   }
 
   .heading-container__text {
