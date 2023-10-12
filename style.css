@@ -76,3 +76,18 @@ body {
     outline-offset: 0.2rem;
     text-transform: capitalize;
   }
+
+  .section {
+    text-align: center;
+    padding: 3rem 5rem;
+    line-height: 1.8rem;
+  }
+  
+  .section-light {
+    background-color: #f1f1f1;
+  }
+  
+  .section-dark {
+    background-color: #282e34;
+    color: #ddd;
+  }
